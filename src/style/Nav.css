@@ -1,0 +1,41 @@
+nav {
+    border-radius: 0px 0px 30px 0px;
+}
+a:not(.navbar-brand){
+    font-family: 'Scheherazade', serif;
+    font-weight: bolder;
+    font-size: large;
+  }
+  a.nav-link {
+    padding: 3px;
+  }
+  .navbar-brand {
+    font-size: larger;
+    letter-spacing: -1px;
+    padding: 0.5rem;
+  }
+  .navbar-nav {
+    margin-right: auto;
+  }
+.bd-red-500{
+    background-color: var(--color);
+}
+.navbar-toggler:focus {
+    text-decoration: initial; 
+    outline: initial;
+    box-shadow: initial;
+}
+.navbar-toggler {
+    border: initial;
+}
+@media (min-width: 992px){
+  a.nav-link {
+    padding-right: 1.6rem !important;
+  }
+}
+@media (max-width: 768px) { 
+  .navbar-brand {
+    padding-right: 0px;
+    margin: 0.5px;
+  }
+}

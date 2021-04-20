@@ -1,0 +1,74 @@
+:root {
+  --color: #dc3545;
+}
+.App {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+}
+h1, h2, h3, h4, h5, h6, .navbar-brand  {
+  font-family: 'Rakkas', cursive;
+  text-align: right;
+}
+p, ul, li {
+  font-family: 'Scheherazade', serif;
+  font-weight: bolder;
+  font-size: large;
+}
+a.nav-link {
+  padding: 3px;
+}
+div.col.title {
+  padding-right: 1.5rem;
+}
+.title p {
+  text-align: right;
+  line-height: 2.35rem;
+  font-size: 28px;
+}
+.navbar-brand {
+  font-size: larger;
+  letter-spacing: -1px;
+  padding-top: 0.7rem;
+}
+span.line {
+  text-decoration-line: underline;
+  text-decoration-color: var(--color);
+}
+.navbar-nav {
+  margin-right: auto;
+}
+.image-title {
+  text-align: center;
+}
+a.restlink {
+  color: initial;
+  font-size: inherit !important;
+}
+p {
+  color: #495057;
+}
+@media (max-width: 768px) { 
+  img.img-fluid {
+    max-width: 165px;
+    height: 340px;
+    object-fit: cover;
+  }
+  img.img-fluid.title-image {
+    object-position: 55% 50%;
+  }
+  img.img-fluid.second-image {
+    object-position: 65% 50%;
+  }
+  .title h1 {
+    font-size: 1.2rem;
+  }
+  .title p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+  .title {
+    padding-left: 0
+  }
+  
+ }
