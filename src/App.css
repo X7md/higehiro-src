@@ -1,6 +1,9 @@
 :root {
   --color: #dc3545;
 }
+* {
+  font-family: 'Scheherazade', serif;
+}
 .App {
   background-color: #f8f9fa;
   min-height: 100vh;
@@ -10,10 +13,13 @@ h1, h2, h3, h4, h5, h6, .navbar-brand  {
   font-family: 'Rakkas', cursive;
   text-align: right;
 }
-p, ul, li {
-  font-family: 'Scheherazade', serif;
+p, ul, li, button {
   font-weight: bolder;
   font-size: large;
+}
+button.btn {
+  font-size: larger;
+  font-weight: 600;
 }
 a.nav-link {
   padding: 3px;
